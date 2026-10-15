@@ -1,0 +1,33 @@
+# Data (downloaded from Kaggle, never committed)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Model / HF caches
+.cache/
+*.pt
+*.ckpt
+lightning_logs/
+
+# Submissions: keep the folder, commit the final one explicitly with `git add -f`
+submissions/*
+!submissions/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+kaggle.json
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
