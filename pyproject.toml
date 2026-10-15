@@ -3,7 +3,7 @@ name = "airparis"
 version = "0.1.0"
 description = "Forecasting hourly air pollution in Paris (X-HEC TS 2025 Kaggle challenge)"
 readme = "README.md"
-requires-python = ">=3.11,<3.13"
+requires-python = ">=3.11"
 dependencies = [
     # data
     "kagglehub>=0.3",
