@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git commit -q -m 'Simplify: single self-contained notebook *)"
+      "Bash(git commit -q -m 'Simplify: single self-contained notebook *)",
+      "Bash(git fetch *)",
+      "Bash(echo \"exit=$?\")"
     ]
   }
 }
